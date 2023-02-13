@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+
+}
+
+a,li{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+@layer base{
+    body{
+        @apply font-[Raleway];
+    }
+
+    li{
+        @apply px-4;
+        @apply cursor-pointer
+    }
+}
